@@ -3,15 +3,15 @@ using namespace std;
 
 int main(){
 	int num;
-	cout << "Enter a number:";
-	cin >> num;
+		cout << "Enter a number:";
+		cin >> num;
 	
 	if(num > 0)
-	cout << "Positive"<< endl;
+		cout << "Positive"<< endl;
 	else if (num < 0)
-	cout << "Negative"<< endl;
+		cout << "Negative"<< endl;
 	else 
-	cout << "Zero"<< endl;
+		cout << "Zero"<< endl;
 	
 	return 0;
 }
